@@ -1,3 +1,5 @@
+Primera entrega de React para el curso coder Hause de parte de Nicolás Sassone
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
