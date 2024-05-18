@@ -1,7 +1,11 @@
+import { Typography } from "@mui/material";
+import Cart from "./Cart"
+
 export default function ItemListContainer({ greeting }) {
     return (
       <>
-        <h2>{greeting}</h2>
+        <Typography>{greeting}</Typography>
+        <Cart/>
       </>
     );
   }

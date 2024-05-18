@@ -1,7 +1,12 @@
+import { Stack, Button } from '@mui/material';
+import './ButtonComponent.css';
+
 export default function ButtonComponent({ nombre, callback }) {
     return (
       <>
-        <button onClick={callback}>{nombre}</button>
+    <Stack spacing={2} direction="row">
+      <Button  variant="contained" onClick={callback}>{nombre}</Button>
+    </Stack>
       </>
     );
   }
